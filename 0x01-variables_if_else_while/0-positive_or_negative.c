@@ -26,8 +26,6 @@ int main(void)
 
 	int n;
 
-
-
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
@@ -38,7 +36,7 @@ int main(void)
 
 	{
 
-			printf("%i is positive\n", n);
+	printf("%i is positive\n", n);
 
 	}
 
@@ -46,7 +44,7 @@ int main(void)
 
 	{
 
-			printf("%i is zero\n", n);
+	printf("%i is zero\n", n);
 
 	}
 
@@ -54,7 +52,7 @@ int main(void)
 
 	{
 
-			printf("%i is negative\n", n);
+	printf("%i is negative\n", n);
 
 	}
 
